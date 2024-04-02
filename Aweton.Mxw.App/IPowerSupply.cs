@@ -1,7 +1,6 @@
-﻿namespace Aweton.Mxw.App
+﻿namespace Aweton.Mxw.App;
+
+public interface IPowerSupply
 {
-    public interface IPowerSupply
-    {
-        bool IsOnBattery();
-    }
+    bool IsOnBattery();
 }
